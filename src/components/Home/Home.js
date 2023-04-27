@@ -22,7 +22,7 @@ const Home = () => {
             <a href='/user/register'>Login</a>
         
             <a href='/user/login'>Register</a>
-            <a href='/user'>Account</a>
+            <a href='/user'>Accounts</a>
             <div className={'home__inner'}>
                 {videos.map((item)=>(
                     <VideoBlock item={item} key={item.id} />
